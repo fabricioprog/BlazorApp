@@ -1,4 +1,4 @@
-# Título do projeto
+# Biblioteca de Componentes Blazor
 
 Desafio Frontend Developer de Componentes Modularizado com Blazor.
 
@@ -40,7 +40,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 * [Fontawesome](https://fontawesome.com/) - Biblioteca de ícones
 
 
-## 📌 Componentes Modularizados Criado Na Biblioteca Criados
+## 📌 Componentes Modularizados em Biblioteca MyLibrary
 
 Avatar.razor
 
