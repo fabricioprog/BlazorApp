@@ -12,10 +12,4 @@
   <ItemGroup>
     <ProjectReference Include="MyLibrary\MyLibrary.csproj" />
   </ItemGroup>
-
-    <!-- Compile SCSS files into CSS -->
-  <Target Name="CompileGlobalSass" BeforeTargets="Compile">
-    <Message Text="Compiling global SCSS files" Importance="high" />
-    <Exec Command="npm run sass -- Styles:wwwroot/css" />
-  </Target>
 </Project>
