@@ -74,8 +74,4 @@ Fabrício Rosal
 
 ## 🎁 Expressões de gratidão
 
-
-
-
----
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+Grato pelo Aprendizado
