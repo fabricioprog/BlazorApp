@@ -1,0 +1,36 @@
+<div class="is-mobile">
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+      aria-expanded="false">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+      @foreach (var item in items)
+      {
+        <li><a class="dropdown-item" href="#">@item</a></li>
+      }
+      <li><a class="dropdown-item" href="#">Home</a></li>
+      <li><a class="dropdown-item" href="#">Avisos</a></li>
+      <li><a class="dropdown-item" href="#">Entidades</a></li>
+      <li><a class="dropdown-item" href="#">Entidades</a></li>
+    </ul>
+  </div>
+</div>
+<div class="is-desktop">
+  <div class="d-flex flex-row gap-3">
+    @foreach (var item in items)
+    {
+      <div class="menu-item"> @item </div>
+    }
+  </div>
+
+</div>
+
+
+@code {
+  [Parameter] public RenderFragment? ChildContent { get; set; }
+  [Parameter] public string? Label { get; set; } = "";
+
+  public string[] items { get; set; } = ["Home", "Avisos", "Entidades", "Candidaturas", "Operações"];
+
+}

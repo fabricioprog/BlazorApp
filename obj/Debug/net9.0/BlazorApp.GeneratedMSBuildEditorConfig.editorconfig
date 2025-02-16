@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorApp
+build_property.RootNamespace = BlazorApp
+build_property.ProjectDir = C:\Users\Samsung\source\repos\BlazorApp\BlazorApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Samsung\source\repos\BlazorApp\BlazorApp
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/MyLibrary/Avatar.razor]
+build_metadata.AdditionalFiles.TargetPath = TXlMaWJyYXJ5XEF2YXRhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/MyLibrary/Button.razor]
+build_metadata.AdditionalFiles.TargetPath = TXlMaWJyYXJ5XEJ1dHRvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/MyLibrary/CheckBox.razor]
+build_metadata.AdditionalFiles.TargetPath = TXlMaWJyYXJ5XENoZWNrQm94LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/MyLibrary/DropDown.razor]
+build_metadata.AdditionalFiles.TargetPath = TXlMaWJyYXJ5XERyb3BEb3duLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/MyLibrary/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = TXlMaWJyYXJ5XEhlYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/MyLibrary/IconButton.razor]
+build_metadata.AdditionalFiles.TargetPath = TXlMaWJyYXJ5XEljb25CdXR0b24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/MyLibrary/MainPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = TXlMaWJyYXJ5XE1haW5QYW5lbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/MyLibrary/Panel.razor]
+build_metadata.AdditionalFiles.TargetPath = TXlMaWJyYXJ5XFBhbmVsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/MyLibrary/Radio.razor]
+build_metadata.AdditionalFiles.TargetPath = TXlMaWJyYXJ5XFJhZGlvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/MyLibrary/Select.razor]
+build_metadata.AdditionalFiles.TargetPath = TXlMaWJyYXJ5XFNlbGVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/MyLibrary/Switch.razor]
+build_metadata.AdditionalFiles.TargetPath = TXlMaWJyYXJ5XFN3aXRjaC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/MyLibrary/Table.razor]
+build_metadata.AdditionalFiles.TargetPath = TXlMaWJyYXJ5XFRhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/MyLibrary/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = TXlMaWJyYXJ5XF9JbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-qgsvw684bo
+
+[C:/Users/Samsung/source/repos/BlazorApp/BlazorApp/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-g8o6n169oq

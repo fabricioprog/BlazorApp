@@ -1,0 +1,232 @@
+// Variaveis
+$primary-color: #4841B3;
+
+$primary-light: #6057EE;
+
+$light-color: #E5E7EB;
+
+$text-light: #686C73;
+
+$background-light:  #F3F5F7;
+$primary: $primary-light;
+
+@media screen and (max-width: 830px) {
+    .is-mobile {
+        display: block;
+    }
+
+    .is-desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 830px) {
+    .is-mobile {
+        display: none;
+    }
+
+    .is-desktop{
+        display: block;
+    }
+}
+
+
+
+
+// Tipografia
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33.6px;
+    letter-spacing: 0%;
+
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 26px;
+}
+
+h4{
+    color:$text-light;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    letter-spacing: 0%;
+
+}
+
+.label-light{
+    color:$text-light;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+
+.sub-title{
+    font-size: 14px;
+}
+
+
+.primary-color{
+    color:$primary-color;
+}
+
+.primary-light{
+    color:$primary-light;
+}
+
+.light-color{
+    color:$light-color;
+}
+
+.icon{
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+    i{
+        width: 32px;
+        height: 32px;
+    }
+    &.light{
+        color:white;
+    }
+
+   
+   
+}
+
+//Header
+
+.main-header{
+    background-color: $primary-color;
+    width: 100%;
+    max-height: 90px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 15px;
+
+    .menu-item{
+        color:$light-color;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .text-light{
+        color:$light-color;
+        font-size: 14px;
+    }
+
+    .avatar{
+        width: 32px;
+        height: 32px;
+    }
+
+    
+    
+}
+
+// Panel
+
+.main-panel{
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: $background-light;
+}
+
+.panel{
+    border-radius: 4px;
+    background-color:white;
+    padding: 10px;
+}
+
+.border-divider{
+    border-bottom: 1px solid #E5E7EB
+}
+
+//Button
+
+.btn{
+    padding: 2px 6px;
+}
+
+.badge{
+    padding: 1px 5px;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.btn-outline-primary{
+    background-color: white;
+}
+
+.btn-circle{
+    background-color: #F0EFFE;
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+    padding: 0px 7px;
+    cursor: pointer;
+    color:$primary-light;
+
+    &:hover{
+        background: #DFDDFC;
+
+    }
+    i{
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.lista{
+    padding:8px;
+
+    &.selected{
+       border-left: 1px solid $primary-light;
+       color: $primary;
+       background: #ECF4F666;
+
+    }
+}
+
+//Table
+.table.custom{
+    border-collapse:separate; 
+    border-spacing: 0 5px;
+    &>tbody>tr{
+        border: 4px;
+        border-radius: 4px;
+        th,td{
+            background-color: #F0EFFE99;
+            vertical-align: middle;
+            border-top: 1px solid #E5E7EB;
+            border-bottom: 1px solid #E5E7EB;
+
+
+            &:first-child{
+                border-left: 1px solid #E5E7EB;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+            }
+            &:last-child{
+                border-right: 1px solid #E5E7EB;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+        }
+    }
+}
+
+

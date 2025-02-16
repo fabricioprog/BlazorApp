@@ -1,0 +1,9 @@
+<label>@Label</label>
+<select class="form-select" aria-label="Default select example">
+  <option selected>Selecionar</option>
+</select>
+
+@code {
+[Parameter] public RenderFragment? ChildContent { get; set; }
+[Parameter] public string? Label { get; set; } = "";
+}

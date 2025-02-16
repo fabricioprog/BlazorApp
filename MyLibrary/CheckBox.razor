@@ -1,0 +1,11 @@
+﻿<div class="form-check">
+  <input class="form-check-input" type="checkbox" checked="@IsChecked">
+  <label class="form-check-label">
+    @Label
+  </label>
+</div>
+
+@code {
+    [Parameter] public string? Label { get; set; }
+    [Parameter] public bool? IsChecked { get; set; } = false;
+}

@@ -1,0 +1,14 @@
+﻿<span class="icon light position-relative">
+    <i class="fa-solid fa-@IconFontAwsome"></i>
+    @if (BadgeValue>0)
+    {
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
+            @BadgeValue
+        </span>
+    }
+
+</span>
+@code {
+    [Parameter] public string? IconFontAwsome { get; set; } = "";
+    [Parameter] public int? BadgeValue { get; set; }  = 0;
+}

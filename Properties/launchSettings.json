@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+    "profiles": {
+      "BlazorApp": {
+        "commandName": "Project",
+        "dotnetRunMessages": true,
+        "launchBrowser": true,
+        "applicationUrl": "https://localhost:7108",
+        "environmentVariables": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        },
+        "hotReloadEnabled": true,
+        "executablePath": "dotnet",
+        "commandLineArgs": "watch run debug --launch-profile BlazorApp"
+      },
+      "Watch":{
+        "commandName": "Executable",
+        "workingDirectory": "$(ProjectDir)",
+        "hotReloadEnabled": true,
+        "executablePath": "dotnet",
+        "commandLineArgs": "watch run debug --launch-profile BlazorApp"
+      }
+    }
+  }

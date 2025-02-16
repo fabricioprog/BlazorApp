@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <ItemGroup>
+	      <PackageReference Include="Syncfusion.Blazor" Version="28.2.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="MyLibrary\MyLibrary.csproj" />
+  </ItemGroup>
+
+    <!-- Compile SCSS files into CSS -->
+  <Target Name="CompileGlobalSass" BeforeTargets="Compile">
+    <Message Text="Compiling global SCSS files" Importance="high" />
+    <Exec Command="npm run sass -- Styles:wwwroot/css" />
+  </Target>
+</Project>

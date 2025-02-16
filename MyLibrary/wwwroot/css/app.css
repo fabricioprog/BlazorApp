@@ -1,0 +1,184 @@
+@media screen and (max-width: 830px) {
+  .is-mobile {
+    display: block;
+  }
+  .is-desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 830px) {
+  .is-mobile {
+    display: none;
+  }
+  .is-desktop {
+    display: block;
+  }
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33.6px;
+  letter-spacing: 0%;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  color: #686C73;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: 0%;
+}
+
+.label-light {
+  color: #686C73;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.sub-title {
+  font-size: 14px;
+}
+
+.primary-color {
+  color: #4841B3;
+}
+
+.primary-light {
+  color: #6057EE;
+}
+
+.light-color {
+  color: #E5E7EB;
+}
+
+.icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+.icon i {
+  width: 32px;
+  height: 32px;
+}
+.icon.light {
+  color: white;
+}
+
+.main-header {
+  background-color: #4841B3;
+  width: 100%;
+  max-height: 90px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px 15px;
+}
+.main-header .menu-item {
+  color: #E5E7EB;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+.main-header .text-light {
+  color: #E5E7EB;
+  font-size: 14px;
+}
+.main-header .avatar {
+  width: 32px;
+  height: 32px;
+}
+
+.main-panel {
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  background-color: #F3F5F7;
+}
+
+.panel {
+  border-radius: 4px;
+  background-color: white;
+  padding: 10px;
+}
+
+.border-divider {
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.btn {
+  padding: 2px 6px;
+}
+
+.badge {
+  padding: 1px 5px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.btn-outline-primary {
+  background-color: white;
+}
+
+.btn-circle {
+  background-color: #F0EFFE;
+  border: 1px solid #E5E7EB;
+  border-radius: 20px;
+  padding: 0px 7px;
+  cursor: pointer;
+  color: #6057EE;
+}
+.btn-circle:hover {
+  background: #DFDDFC;
+}
+.btn-circle i {
+  width: 24px;
+  height: 24px;
+}
+
+.lista {
+  padding: 8px;
+}
+.lista.selected {
+  border-left: 1px solid #6057EE;
+  color: #6057EE;
+  background: rgba(236, 244, 246, 0.4);
+}
+
+.table.custom {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+}
+.table.custom > tbody > tr {
+  border: 4px;
+  border-radius: 4px;
+}
+.table.custom > tbody > tr th, .table.custom > tbody > tr td {
+  background-color: rgba(240, 239, 254, 0.6);
+  vertical-align: middle;
+  border-top: 1px solid #E5E7EB;
+  border-bottom: 1px solid #E5E7EB;
+}
+.table.custom > tbody > tr th:first-child, .table.custom > tbody > tr td:first-child {
+  border-left: 1px solid #E5E7EB;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.table.custom > tbody > tr th:last-child, .table.custom > tbody > tr td:last-child {
+  border-right: 1px solid #E5E7EB;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/*# sourceMappingURL=app.css.map */

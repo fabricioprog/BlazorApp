@@ -1,0 +1,15 @@
+﻿<img class="avatar" src="@srcImage" />
+<div class="d-flex flex-column">
+    <span class="fw-bold text-light">
+        @User
+    </span>
+    <span class="text-light">
+        @Perfil
+    </span>
+</div>
+
+@code {
+    [Parameter] public string? srcImage { get; set; }
+    [Parameter] public string? User { get; set; }
+    [Parameter] public string? Perfil { get; set; }
+}
